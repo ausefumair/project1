@@ -105,6 +105,20 @@
                 padding:7px;
                 width:100px;
                 }
+
+                #home{
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: column;
+                    text-align: start;
+                    background-color: linen;
+                    color: #35bb35;
+                    border-radius: 10px;
+                    margin:50px 10px;
+                    margin-bottom: 30px;
+                    padding: 10px;
+                    box-shadow: 5px 5px 2px #4ee44e;
+                }
             
                 #about{
                     text-align: start;
@@ -156,13 +170,13 @@
                 }
             
                 .card{
+                    border-radius: 10px;
                     position: relative;
-                    animation-name: moveit;
-                    animation-duration: 25s;
+                    animation-name: linear;
+                    animation-duration: 5s;
                 }
 
-                @keyframes moveit {
-                    from{left:0%;} to{left:50%;}
-                                  }
+                @keyframes linear {
+                    from{right:10%;}
+                                                                      
         }
-        
