@@ -1,0 +1,168 @@
+        @media screen, print and (max-width: 1200px) {
+    
+            #carouselExampleIndicators{
+                margin:20px 10px;
+                border-radius: 10px;
+            }
+            
+            .d-block{
+                border-radius: 15px;
+                height: 500px;
+            }
+            
+            #parent{
+                display: flex;
+                list-style: none;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                float: left;
+                flex-direction: row;
+            }
+            
+            li{
+                border:2px solid none;
+               margin-top: 2px;
+               margin-bottom: 2px;
+               margin-left: 5px;
+               margin-right: 5px;
+            }
+            
+            .links{
+                color: white;
+                text-decoration: none;
+                font-size: large;
+                font-family:  sans-serif;
+                text-align: center;
+                align-items: center;
+                margin-right: 15px;
+            }
+            
+            #mart{
+            font-size: 40px;
+            color: linen;
+            font-weight: bold;
+            margin-right:50px;
+            font-family:  "sans-serif";
+            align-items: flex-start;
+            }
+            
+            nav{
+                background-color: #4ee44e;
+                height: 60px;
+                margin-bottom: 20px;
+                border-radius: 5px;
+            }
+            
+            #main{
+                display: flex;
+                justify-content: center;
+                border: 2px solid none;
+                border-radius: 10px;
+                margin-bottom: 10px;
+                margin-right: 10px;
+                margin-left: 10px;
+            }
+            
+            .column{
+                margin-right: 5px;
+            }
+            
+            #column_side1{
+                width: 30%;
+                height: 500px;
+                border: 2px solid green;
+                border-radius: 10px;
+            }
+            #column_main{
+                width: 40%;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            #column_side2{
+                width: 30%;
+                text-align: center;
+                justify-content: center;
+            }
+            
+            input[type=button]{
+                border-radius:10px;
+                color:white;
+                background-color:#4ee44e;
+                border-color:white;
+                text-decoration:none;
+                padding:5px;
+                width:80px;
+                font-family:cursive;
+                }
+                
+                input[type=submit]{
+                border-radius:10px;
+                background-color:#4ee44e;
+                color:white;
+                border:none;
+                padding:7px;
+                width:100px;
+                }
+            
+                #about{
+                    text-align: start;
+                    background-color: linen;
+                    color: #35bb35;
+                    border-radius: 10px;
+                    margin:50px 10px;
+                    margin-bottom: 20px;
+                    padding: 10px;
+                    box-shadow: 5px 5px 2px #4ee44e;
+                }
+            
+                #portfolio{
+                    text-align: start;
+                    background-color: linen;
+                    color: #35bb35;
+                    border-radius: 10px;
+                    margin:50px 10px;
+                    padding: 10px;
+                    padding-bottom: 20px;
+                    box-shadow: 5px 5px 2px #30e430;
+                }
+            
+            
+                #services{
+                    text-align: start;
+                    background-color: linen;
+                    color: #35bb35;
+                    border-radius: 10px;
+                    margin:50px 10px;
+                    padding: 10px;
+                    box-shadow: 5px 5px 2px #30e430;
+                }
+            
+                footer{
+                    display: flex;
+                    justify-content: space-between;
+                    text-align: start;
+                    background-color: linen;
+                    color: #35bb35;
+                    border-radius: 10px;
+                    margin:50px 10px;
+                    padding: 10px;
+                    box-shadow: 5px 5px 2px #30e430;     
+                }
+            
+                .link2{
+                    color:#30e430 ;
+                }
+            
+                .card{
+                    position: relative;
+                    animation-name: moveit;
+                    animation-duration: 25s;
+                }
+
+                @keyframes moveit {
+                    from{left:0%;} to{left:50%;}
+                                  }
+        }
+        
